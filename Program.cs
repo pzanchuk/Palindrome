@@ -29,5 +29,11 @@ using System;
       string input = Console.ReadLine();
       string inputNoSpaces = input.Replace(" ", string.Empty).ToLower();
       Console.WriteLine(IsPalindrome(inputNoSpaces));
+      Console.WriteLine("Would you like to check another string? (Y or N): ");
+      string yesORno = Console.ReadLine();
+      if(yesORno == "Y" || yesORno =="y")
+      {
+        Main();
+      }
     }
 }

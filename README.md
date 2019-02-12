@@ -17,7 +17,7 @@ _This is a program that checks the type a given triangle._
 
 ## Known Bugs
 
-_No error handling._
+_No bugs_
 
 ## Setup instructions
 * _On GitHub, navigate to the main page of the repository._
